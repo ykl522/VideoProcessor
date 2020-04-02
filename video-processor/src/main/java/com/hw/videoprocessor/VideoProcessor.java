@@ -9,9 +9,6 @@ import android.media.MediaExtractor;
 import android.media.MediaFormat;
 import android.media.MediaMetadataRetriever;
 import android.media.MediaMuxer;
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.Pair;
 import com.hw.videoprocessor.util.AudioFadeUtil;
 import com.hw.videoprocessor.util.AudioUtil;
@@ -20,6 +17,10 @@ import com.hw.videoprocessor.util.PcmToWavUtil;
 import com.hw.videoprocessor.util.VideoMultiStepProgress;
 import com.hw.videoprocessor.util.VideoProgressAve;
 import com.hw.videoprocessor.util.VideoProgressListener;
+
+import androidx.annotation.IntRange;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import java.io.File;
 import java.io.IOException;
